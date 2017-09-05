@@ -1,0 +1,903 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="6.4">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="POWER">
+<pad name="S2_1" x="-13.97" y="11.43" drill="1" shape="square"/>
+<pad name="S2_2" x="-11.43" y="11.43" drill="1"/>
+<pad name="S2_3" x="-13.97" y="8.89" drill="1"/>
+<pad name="S2_4" x="-11.43" y="8.89" drill="1"/>
+<pad name="S2_5" x="-13.97" y="6.35" drill="1"/>
+<pad name="S2_6" x="-11.43" y="6.35" drill="1"/>
+<pad name="S2_7" x="-13.97" y="3.81" drill="1"/>
+<pad name="S2_8" x="-11.43" y="3.81" drill="1"/>
+<pad name="S2_9" x="-13.97" y="1.27" drill="1"/>
+<pad name="S2_10" x="-11.43" y="1.27" drill="1"/>
+<pad name="S2_11" x="-13.97" y="-1.27" drill="1"/>
+<pad name="S2_12" x="-11.43" y="-1.27" drill="1"/>
+<pad name="S2_13" x="-13.97" y="-3.81" drill="1"/>
+<pad name="S2_14" x="-11.43" y="-3.81" drill="1"/>
+<pad name="S2_15" x="-13.97" y="-6.35" drill="1"/>
+<pad name="S2_16" x="-11.43" y="-6.35" drill="1"/>
+<pad name="S2_17" x="-13.97" y="-8.89" drill="1"/>
+<pad name="S2_18" x="-11.43" y="-8.89" drill="1"/>
+<pad name="S2_19" x="-13.97" y="-11.43" drill="1"/>
+<pad name="S2_20" x="-11.43" y="-11.43" drill="1"/>
+<pad name="S1_17" x="11.43" y="-8.89" drill="1"/>
+<pad name="S1_19" x="11.43" y="-11.43" drill="1"/>
+<pad name="S1_20" x="13.97" y="-11.43" drill="1"/>
+<pad name="S1_18" x="13.97" y="-8.89" drill="1"/>
+<pad name="S1_15" x="11.43" y="-6.35" drill="1"/>
+<pad name="S1_16" x="13.97" y="-6.35" drill="1"/>
+<pad name="S1_13" x="11.43" y="-3.81" drill="1"/>
+<pad name="S1_14" x="13.97" y="-3.81" drill="1"/>
+<pad name="S1_11" x="11.43" y="-1.27" drill="1"/>
+<pad name="S1_12" x="13.97" y="-1.27" drill="1"/>
+<pad name="S1_9" x="11.43" y="1.27" drill="1"/>
+<pad name="S1_10" x="13.97" y="1.27" drill="1"/>
+<pad name="S1_7" x="11.43" y="3.81" drill="1"/>
+<pad name="S1_8" x="13.97" y="3.81" drill="1"/>
+<pad name="S1_5" x="11.43" y="6.35" drill="1"/>
+<pad name="S1_6" x="13.97" y="6.35" drill="1"/>
+<pad name="S1_3" x="11.43" y="8.89" drill="1"/>
+<pad name="S1_4" x="13.97" y="8.89" drill="1"/>
+<pad name="S1_2" x="13.97" y="11.43" drill="1"/>
+<pad name="S1_1" x="11.43" y="11.43" drill="1" shape="square"/>
+<wire x1="-15.24" y1="16.51" x2="15.24" y2="16.51" width="0.127" layer="21"/>
+<wire x1="15.24" y1="16.51" x2="15.24" y2="-21.59" width="0.127" layer="21"/>
+<wire x1="15.24" y1="-21.59" x2="-15.24" y2="-21.59" width="0.127" layer="21"/>
+<wire x1="-15.24" y1="-21.59" x2="-15.24" y2="16.51" width="0.127" layer="21"/>
+<text x="0" y="-8.89" size="1.27" layer="21" font="vector" rot="R90">Power Modul v1.0</text>
+</package>
+<package name="XC6SLX9">
+<pad name="S1_1" x="-15.24" y="13.97" drill="1" shape="square"/>
+<pad name="S1_3" x="-12.7" y="13.97" drill="1"/>
+<pad name="S1_5" x="-10.16" y="13.97" drill="1"/>
+<pad name="S1_7" x="-7.62" y="13.97" drill="1"/>
+<pad name="S1_9" x="-5.08" y="13.97" drill="1"/>
+<pad name="S1_11" x="-2.54" y="13.97" drill="1"/>
+<pad name="S1_13" x="0" y="13.97" drill="1"/>
+<pad name="S1_15" x="2.54" y="13.97" drill="1"/>
+<pad name="S1_17" x="5.08" y="13.97" drill="1"/>
+<pad name="S1_19" x="7.62" y="13.97" drill="1"/>
+<pad name="S1_21" x="10.16" y="13.97" drill="1"/>
+<pad name="S1_23" x="12.7" y="13.97" drill="1"/>
+<pad name="S1_25" x="15.24" y="13.97" drill="1"/>
+<pad name="S1_26" x="15.24" y="16.51" drill="1"/>
+<pad name="S1_24" x="12.7" y="16.51" drill="1"/>
+<pad name="S1_22" x="10.16" y="16.51" drill="1"/>
+<pad name="S1_20" x="7.62" y="16.51" drill="1"/>
+<pad name="S1_18" x="5.08" y="16.51" drill="1"/>
+<pad name="S1_16" x="2.54" y="16.51" drill="1"/>
+<pad name="S1_14" x="0" y="16.51" drill="1"/>
+<pad name="S1_12" x="-2.54" y="16.51" drill="1"/>
+<pad name="S1_10" x="-5.08" y="16.51" drill="1"/>
+<pad name="S1_8" x="-7.62" y="16.51" drill="1"/>
+<pad name="S1_6" x="-10.16" y="16.51" drill="1"/>
+<pad name="S1_4" x="-12.7" y="16.51" drill="1"/>
+<pad name="S1_2" x="-15.24" y="16.51" drill="1"/>
+<pad name="S2_1" x="-15.24" y="-16.51" drill="1" shape="square"/>
+<pad name="S2_3" x="-12.7" y="-16.51" drill="1"/>
+<pad name="S2_5" x="-10.16" y="-16.51" drill="1"/>
+<pad name="S2_7" x="-7.62" y="-16.51" drill="1"/>
+<pad name="S2_9" x="-5.08" y="-16.51" drill="1"/>
+<pad name="S2_11" x="-2.54" y="-16.51" drill="1"/>
+<pad name="S2_13" x="0" y="-16.51" drill="1"/>
+<pad name="S2_15" x="2.54" y="-16.51" drill="1"/>
+<pad name="S2_17" x="5.08" y="-16.51" drill="1"/>
+<pad name="S2_19" x="7.62" y="-16.51" drill="1"/>
+<pad name="S2_21" x="10.16" y="-16.51" drill="1"/>
+<pad name="S2_23" x="12.7" y="-16.51" drill="1"/>
+<pad name="S2_25" x="15.24" y="-16.51" drill="1"/>
+<pad name="S2_26" x="15.24" y="-13.97" drill="1"/>
+<pad name="S2_24" x="12.7" y="-13.97" drill="1"/>
+<pad name="S2_22" x="10.16" y="-13.97" drill="1"/>
+<pad name="S2_20" x="7.62" y="-13.97" drill="1"/>
+<pad name="S2_18" x="5.08" y="-13.97" drill="1"/>
+<pad name="S2_16" x="2.54" y="-13.97" drill="1"/>
+<pad name="S2_14" x="0" y="-13.97" drill="1"/>
+<pad name="S2_12" x="-2.54" y="-13.97" drill="1"/>
+<pad name="S2_10" x="-5.08" y="-13.97" drill="1"/>
+<pad name="S2_8" x="-7.62" y="-13.97" drill="1"/>
+<pad name="S2_6" x="-10.16" y="-13.97" drill="1"/>
+<pad name="S2_4" x="-12.7" y="-13.97" drill="1"/>
+<pad name="S2_2" x="-15.24" y="-13.97" drill="1"/>
+<pad name="S3_1" x="22.86" y="-11.43" drill="1" shape="square" rot="R90"/>
+<pad name="S3_3" x="22.86" y="-8.89" drill="1" rot="R90"/>
+<pad name="S3_5" x="22.86" y="-6.35" drill="1" rot="R90"/>
+<pad name="S3_7" x="22.86" y="-3.81" drill="1" rot="R90"/>
+<pad name="S3_9" x="22.86" y="-1.27" drill="1" rot="R90"/>
+<pad name="S3_11" x="22.86" y="1.27" drill="1" rot="R90"/>
+<pad name="S3_13" x="22.86" y="3.81" drill="1" rot="R90"/>
+<pad name="S3_15" x="22.86" y="6.35" drill="1" rot="R90"/>
+<pad name="S3_17" x="22.86" y="8.89" drill="1" rot="R90"/>
+<pad name="S3_19" x="22.86" y="11.43" drill="1" rot="R90"/>
+<pad name="S3_20" x="20.32" y="11.43" drill="1" rot="R90"/>
+<pad name="S3_18" x="20.32" y="8.89" drill="1" rot="R90"/>
+<pad name="S3_16" x="20.32" y="6.35" drill="1" rot="R90"/>
+<pad name="S3_14" x="20.32" y="3.81" drill="1" rot="R90"/>
+<pad name="S3_12" x="20.32" y="1.27" drill="1" rot="R90"/>
+<pad name="S3_10" x="20.32" y="-1.27" drill="1" rot="R90"/>
+<pad name="S3_8" x="20.32" y="-3.81" drill="1" rot="R90"/>
+<pad name="S3_6" x="20.32" y="-6.35" drill="1" rot="R90"/>
+<pad name="S3_4" x="20.32" y="-8.89" drill="1" rot="R90"/>
+<pad name="S3_2" x="20.32" y="-11.43" drill="1" rot="R90"/>
+<pad name="JTAG_2.5V" x="-17.78" y="6.35" drill="1"/>
+<pad name="GND" x="-17.78" y="3.81" drill="1"/>
+<pad name="JTAG_TCK" x="-17.78" y="1.27" drill="1"/>
+<pad name="JTAG_TDO" x="-17.78" y="-1.27" drill="1"/>
+<pad name="JTAG_TDI" x="-17.78" y="-3.81" drill="1"/>
+<pad name="JTAG_TMS" x="-17.78" y="-6.35" drill="1"/>
+<wire x1="-21.59" y1="17.78" x2="25.4" y2="17.78" width="0.127" layer="21"/>
+<wire x1="25.4" y1="17.78" x2="25.4" y2="-17.78" width="0.127" layer="21"/>
+<wire x1="25.4" y1="-17.78" x2="-21.59" y2="-17.78" width="0.127" layer="21"/>
+<wire x1="-21.59" y1="-17.78" x2="-21.59" y2="17.78" width="0.127" layer="21"/>
+<text x="-10.16" y="0" size="1.27" layer="21" font="vector">FPGA Modul XC6SLX9</text>
+</package>
+<package name="IO_MODUL">
+<pad name="S2_1" x="-12.7" y="12.7" drill="1" shape="square"/>
+<pad name="S2_2" x="-10.16" y="12.7" drill="1"/>
+<pad name="S2_3" x="-12.7" y="10.16" drill="1"/>
+<pad name="S2_4" x="-10.16" y="10.16" drill="1"/>
+<pad name="S2_5" x="-12.7" y="7.62" drill="1"/>
+<pad name="S2_6" x="-10.16" y="7.62" drill="1"/>
+<pad name="S2_7" x="-12.7" y="5.08" drill="1"/>
+<pad name="S2_8" x="-10.16" y="5.08" drill="1"/>
+<pad name="S2_9" x="-12.7" y="2.54" drill="1"/>
+<pad name="S2_10" x="-10.16" y="2.54" drill="1"/>
+<pad name="S2_11" x="-12.7" y="0" drill="1"/>
+<pad name="S2_12" x="-10.16" y="0" drill="1"/>
+<pad name="S2_13" x="-12.7" y="-2.54" drill="1"/>
+<pad name="S2_14" x="-10.16" y="-2.54" drill="1"/>
+<pad name="S2_15" x="-12.7" y="-5.08" drill="1"/>
+<pad name="S2_16" x="-10.16" y="-5.08" drill="1"/>
+<pad name="S2_17" x="-12.7" y="-7.62" drill="1"/>
+<pad name="S2_18" x="-10.16" y="-7.62" drill="1"/>
+<pad name="S2_19" x="-12.7" y="-10.16" drill="1"/>
+<pad name="S2_20" x="-10.16" y="-10.16" drill="1"/>
+<pad name="S1_17" x="12.7" y="-7.62" drill="1"/>
+<pad name="S1_19" x="12.7" y="-10.16" drill="1"/>
+<pad name="S1_20" x="15.24" y="-10.16" drill="1"/>
+<pad name="S1_18" x="15.24" y="-7.62" drill="1"/>
+<pad name="S1_15" x="12.7" y="-5.08" drill="1"/>
+<pad name="S1_16" x="15.24" y="-5.08" drill="1"/>
+<pad name="S1_13" x="12.7" y="-2.54" drill="1"/>
+<pad name="S1_14" x="15.24" y="-2.54" drill="1"/>
+<pad name="S1_11" x="12.7" y="0" drill="1"/>
+<pad name="S1_12" x="15.24" y="0" drill="1"/>
+<pad name="S1_9" x="12.7" y="2.54" drill="1"/>
+<pad name="S1_10" x="15.24" y="2.54" drill="1"/>
+<pad name="S1_7" x="12.7" y="5.08" drill="1"/>
+<pad name="S1_8" x="15.24" y="5.08" drill="1"/>
+<pad name="S1_5" x="12.7" y="7.62" drill="1"/>
+<pad name="S1_6" x="15.24" y="7.62" drill="1"/>
+<pad name="S1_3" x="12.7" y="10.16" drill="1"/>
+<pad name="S1_4" x="15.24" y="10.16" drill="1"/>
+<pad name="S1_2" x="15.24" y="12.7" drill="1"/>
+<pad name="S1_1" x="12.7" y="12.7" drill="1" shape="square"/>
+<wire x1="-13.97" y1="17.78" x2="16.51" y2="17.78" width="0.127" layer="21"/>
+<wire x1="16.51" y1="17.78" x2="16.51" y2="-20.32" width="0.127" layer="21"/>
+<wire x1="16.51" y1="-20.32" x2="-13.97" y2="-20.32" width="0.127" layer="21"/>
+<wire x1="-13.97" y1="-20.32" x2="-13.97" y2="17.78" width="0.127" layer="21"/>
+<text x="1.27" y="-10.16" size="1.27" layer="21" font="vector" rot="R90">BitRecords IO Modul</text>
+</package>
+<package name="XC6SLX25">
+<pad name="S1_1" x="-20.32" y="16.51" drill="1" shape="square"/>
+<pad name="S1_2" x="-20.32" y="19.05" drill="1"/>
+<pad name="S1_3" x="-17.78" y="16.51" drill="1"/>
+<pad name="S1_5" x="-15.24" y="16.51" drill="1"/>
+<pad name="S1_7" x="-12.7" y="16.51" drill="1"/>
+<pad name="S1_9" x="-10.16" y="16.51" drill="1"/>
+<pad name="S1_11" x="-7.62" y="16.51" drill="1"/>
+<pad name="S1_13" x="-5.08" y="16.51" drill="1"/>
+<pad name="S1_15" x="-2.54" y="16.51" drill="1"/>
+<pad name="S1_17" x="0" y="16.51" drill="1"/>
+<pad name="S1_19" x="2.54" y="16.51" drill="1"/>
+<pad name="S1_21" x="5.08" y="16.51" drill="1"/>
+<pad name="S1_23" x="7.62" y="16.51" drill="1"/>
+<pad name="S1_25" x="10.16" y="16.51" drill="1"/>
+<pad name="S1_27" x="12.7" y="16.51" drill="1"/>
+<pad name="S1_29" x="15.24" y="16.51" drill="1"/>
+<pad name="S1_31" x="17.78" y="16.51" drill="1"/>
+<pad name="S1_33" x="20.32" y="16.51" drill="1"/>
+<pad name="S1_34" x="20.32" y="19.05" drill="1"/>
+<pad name="S1_32" x="17.78" y="19.05" drill="1"/>
+<pad name="S1_30" x="15.24" y="19.05" drill="1"/>
+<pad name="S1_28" x="12.7" y="19.05" drill="1"/>
+<pad name="S1_26" x="10.16" y="19.05" drill="1"/>
+<pad name="S1_24" x="7.62" y="19.05" drill="1"/>
+<pad name="S1_22" x="5.08" y="19.05" drill="1"/>
+<pad name="S1_20" x="2.54" y="19.05" drill="1"/>
+<pad name="S1_18" x="0" y="19.05" drill="1"/>
+<pad name="S1_16" x="-2.54" y="19.05" drill="1"/>
+<pad name="S1_14" x="-5.08" y="19.05" drill="1"/>
+<pad name="S1_12" x="-7.62" y="19.05" drill="1"/>
+<pad name="S1_10" x="-10.16" y="19.05" drill="1"/>
+<pad name="S1_8" x="-12.7" y="19.05" drill="1"/>
+<pad name="S1_4" x="-17.78" y="19.05" drill="1"/>
+<pad name="S1_6" x="-15.24" y="19.05" drill="1"/>
+<pad name="S2_1" x="-20.32" y="-19.05" drill="1" shape="square"/>
+<pad name="S2_2" x="-20.32" y="-16.51" drill="1"/>
+<pad name="S2_3" x="-17.78" y="-19.05" drill="1"/>
+<pad name="S2_5" x="-15.24" y="-19.05" drill="1"/>
+<pad name="S2_7" x="-12.7" y="-19.05" drill="1"/>
+<pad name="S2_9" x="-10.16" y="-19.05" drill="1"/>
+<pad name="S2_11" x="-7.62" y="-19.05" drill="1"/>
+<pad name="S2_13" x="-5.08" y="-19.05" drill="1"/>
+<pad name="S2_15" x="-2.54" y="-19.05" drill="1"/>
+<pad name="S2_17" x="0" y="-19.05" drill="1"/>
+<pad name="S2_19" x="2.54" y="-19.05" drill="1"/>
+<pad name="S2_21" x="5.08" y="-19.05" drill="1"/>
+<pad name="S2_23" x="7.62" y="-19.05" drill="1"/>
+<pad name="S2_25" x="10.16" y="-19.05" drill="1"/>
+<pad name="S2_27" x="12.7" y="-19.05" drill="1"/>
+<pad name="S2_29" x="15.24" y="-19.05" drill="1"/>
+<pad name="S2_31" x="17.78" y="-19.05" drill="1"/>
+<pad name="S2_33" x="20.32" y="-19.05" drill="1"/>
+<pad name="S2_34" x="20.32" y="-16.51" drill="1"/>
+<pad name="S2_32" x="17.78" y="-16.51" drill="1"/>
+<pad name="S2_30" x="15.24" y="-16.51" drill="1"/>
+<pad name="S2_28" x="12.7" y="-16.51" drill="1"/>
+<pad name="S2_26" x="10.16" y="-16.51" drill="1"/>
+<pad name="S2_24" x="7.62" y="-16.51" drill="1"/>
+<pad name="S2_22" x="5.08" y="-16.51" drill="1"/>
+<pad name="S2_20" x="2.54" y="-16.51" drill="1"/>
+<pad name="S2_18" x="0" y="-16.51" drill="1"/>
+<pad name="S2_16" x="-2.54" y="-16.51" drill="1"/>
+<pad name="S2_14" x="-5.08" y="-16.51" drill="1"/>
+<pad name="S2_12" x="-7.62" y="-16.51" drill="1"/>
+<pad name="S2_10" x="-10.16" y="-16.51" drill="1"/>
+<pad name="S2_8" x="-12.7" y="-16.51" drill="1"/>
+<pad name="S2_4" x="-17.78" y="-16.51" drill="1"/>
+<pad name="S2_6" x="-15.24" y="-16.51" drill="1"/>
+<pad name="S3_1" x="25.4" y="-11.43" drill="1" shape="square" rot="R90"/>
+<pad name="S3_2" x="22.86" y="-11.43" drill="1" rot="R90"/>
+<pad name="S3_3" x="25.4" y="-8.89" drill="1" rot="R90"/>
+<pad name="S3_5" x="25.4" y="-6.35" drill="1" rot="R90"/>
+<pad name="S3_7" x="25.4" y="-3.81" drill="1" rot="R90"/>
+<pad name="S3_9" x="25.4" y="-1.27" drill="1" rot="R90"/>
+<pad name="S3_11" x="25.4" y="1.27" drill="1" rot="R90"/>
+<pad name="S3_13" x="25.4" y="3.81" drill="1" rot="R90"/>
+<pad name="S3_15" x="25.4" y="6.35" drill="1" rot="R90"/>
+<pad name="S3_17" x="25.4" y="8.89" drill="1" rot="R90"/>
+<pad name="S3_19" x="25.4" y="11.43" drill="1" rot="R90"/>
+<pad name="S3_20" x="22.86" y="11.43" drill="1" rot="R90"/>
+<pad name="S3_18" x="22.86" y="8.89" drill="1" rot="R90"/>
+<pad name="S3_16" x="22.86" y="6.35" drill="1" rot="R90"/>
+<pad name="S3_14" x="22.86" y="3.81" drill="1" rot="R90"/>
+<pad name="S3_12" x="22.86" y="1.27" drill="1" rot="R90"/>
+<pad name="S3_10" x="22.86" y="-1.27" drill="1" rot="R90"/>
+<pad name="S3_8" x="22.86" y="-3.81" drill="1" rot="R90"/>
+<pad name="S3_4" x="22.86" y="-8.89" drill="1" rot="R90"/>
+<pad name="S3_6" x="22.86" y="-6.35" drill="1" rot="R90"/>
+<pad name="JTAG_TMS" x="-20.32" y="-6.35" drill="1"/>
+<pad name="JTAG_TDI" x="-20.32" y="-3.81" drill="1"/>
+<pad name="JTAG_TDO" x="-20.32" y="-1.27" drill="1"/>
+<pad name="JTAG_TCK" x="-20.32" y="1.27" drill="1"/>
+<pad name="GND" x="-20.32" y="3.81" drill="1"/>
+<pad name="JTAG_2.5V" x="-20.32" y="6.35" drill="1"/>
+<wire x1="-22.86" y1="-20.32" x2="-22.86" y2="20.32" width="0.127" layer="21"/>
+<wire x1="-22.86" y1="20.32" x2="29.21" y2="20.32" width="0.127" layer="21"/>
+<wire x1="29.21" y1="20.32" x2="29.21" y2="-20.32" width="0.127" layer="21"/>
+<wire x1="29.21" y1="-20.32" x2="-22.86" y2="-20.32" width="0.127" layer="21"/>
+<text x="-8.89" y="0" size="1.27" layer="21" font="vector">FPGA Modul XC6SLX25</text>
+</package>
+</packages>
+<symbols>
+<symbol name="POWER">
+<pin name="VIN@S1_1" x="10.16" y="25.4" visible="pin" length="middle" direction="sup" swaplevel="1" rot="R180"/>
+<pin name="VIN@S1_2" x="10.16" y="22.86" visible="pin" length="middle" direction="sup" swaplevel="1" rot="R180"/>
+<pin name="VIN@S2_1" x="10.16" y="20.32" visible="pin" length="middle" direction="sup" swaplevel="1" rot="R180"/>
+<pin name="VIN@S2_2" x="10.16" y="17.78" visible="pin" length="middle" direction="sup" swaplevel="1" rot="R180"/>
+<pin name="5.0V@S1_5" x="10.16" y="12.7" visible="pin" length="middle" direction="sup" swaplevel="1" rot="R180"/>
+<pin name="5.0V@S1_6" x="10.16" y="10.16" visible="pin" length="middle" direction="sup" swaplevel="1" rot="R180"/>
+<pin name="5.0V@S2_5" x="10.16" y="7.62" visible="pin" length="middle" direction="sup" swaplevel="1" rot="R180"/>
+<pin name="5.0V@S2_6" x="10.16" y="5.08" visible="pin" length="middle" direction="sup" swaplevel="1" rot="R180"/>
+<pin name="3.3V@S1__9" x="10.16" y="0" visible="pin" length="middle" direction="sup" swaplevel="1" rot="R180"/>
+<pin name="3.3V@S1_10" x="10.16" y="-2.54" visible="pin" length="middle" direction="sup" swaplevel="1" rot="R180"/>
+<pin name="3.3V@S2__9" x="10.16" y="-5.08" visible="pin" length="middle" direction="sup" swaplevel="1" rot="R180"/>
+<pin name="3.3V@S2_10" x="10.16" y="-7.62" visible="pin" length="middle" direction="sup" swaplevel="1" rot="R180"/>
+<pin name="2.5V@S1_13" x="10.16" y="-12.7" visible="pin" length="middle" direction="sup" swaplevel="1" rot="R180"/>
+<pin name="2.5V@S1_14" x="10.16" y="-15.24" visible="pin" length="middle" direction="sup" swaplevel="1" rot="R180"/>
+<pin name="2.5V@S2_13" x="10.16" y="-17.78" visible="pin" length="middle" direction="sup" swaplevel="1" rot="R180"/>
+<pin name="2.5V@S2_14" x="10.16" y="-20.32" visible="pin" length="middle" direction="sup" swaplevel="1" rot="R180"/>
+<pin name="1.2V@S1_17" x="10.16" y="-25.4" visible="pin" length="middle" direction="sup" swaplevel="1" rot="R180"/>
+<pin name="1.2V@S1_18" x="10.16" y="-27.94" visible="pin" length="middle" direction="sup" swaplevel="1" rot="R180"/>
+<pin name="1.2V@S2_17" x="10.16" y="-30.48" visible="pin" length="middle" direction="sup" swaplevel="1" rot="R180"/>
+<pin name="1.2V@S2_18" x="10.16" y="-33.02" visible="pin" length="middle" direction="sup" swaplevel="1" rot="R180"/>
+<pin name="GND" x="10.16" y="-38.1" visible="pin" length="middle" direction="pwr" swaplevel="1" rot="R180"/>
+<wire x1="-12.7" y1="27.94" x2="5.08" y2="27.94" width="0.254" layer="94"/>
+<wire x1="5.08" y1="27.94" x2="5.08" y2="-40.64" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-40.64" x2="-12.7" y2="-40.64" width="0.254" layer="94"/>
+<text x="-12.7" y="29.21" size="1.27" layer="94" font="vector">Power Modul v1.0</text>
+</symbol>
+<symbol name="XC6SLX9_S1">
+<pin name="FPGA_B2_P59" x="10.16" y="1.27" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B2_P61" x="10.16" y="3.81" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B2_P62" x="10.16" y="6.35" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B2_P66" x="10.16" y="8.89" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B2_P67" x="10.16" y="11.43" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B1_P75" x="10.16" y="13.97" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B1_P74" x="10.16" y="16.51" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B1_P78" x="10.16" y="19.05" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B1_P79" x="10.16" y="21.59" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B1_P80" x="10.16" y="24.13" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B1_P81" x="10.16" y="26.67" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="3.3V" x="10.16" y="29.21" visible="pin" length="middle" direction="pwr" swaplevel="1" rot="R180"/>
+<pin name="GND" x="10.16" y="31.75" visible="pin" length="middle" direction="pwr" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B2_P58" x="10.16" y="-1.27" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B2_P57" x="10.16" y="-3.81" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B2_P56" x="10.16" y="-6.35" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B2_P55" x="10.16" y="-8.89" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B2_P51" x="10.16" y="-11.43" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B2_P50" x="10.16" y="-13.97" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B2_P47" x="10.16" y="-16.51" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B2_P45" x="10.16" y="-19.05" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B2_P46" x="10.16" y="-21.59" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B2_P43" x="10.16" y="-24.13" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B2_P44" x="10.16" y="-26.67" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B2_P40" x="10.16" y="-29.21" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B2_P41" x="10.16" y="-31.75" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<wire x1="-15.24" y1="34.29" x2="5.08" y2="34.29" width="0.254" layer="94"/>
+<wire x1="5.08" y1="34.29" x2="5.08" y2="-34.29" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-34.29" x2="-15.24" y2="-34.29" width="0.254" layer="94"/>
+<text x="-15.24" y="-11.43" size="1.27" layer="94" font="vector" rot="R90">FPGA Modul XC6SLX9, SV1</text>
+</symbol>
+<symbol name="XC6SLX9_S2">
+<pin name="FPGA_B0_P117" x="17.78" y="1.27" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B0_P114" x="17.78" y="3.81" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B0_P115" x="17.78" y="6.35" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B0_P111" x="17.78" y="8.89" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B0_P112" x="17.78" y="11.43" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B1_P101" x="17.78" y="13.97" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B1_P100" x="17.78" y="16.51" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B1_P97" x="17.78" y="19.05" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B1_P98" x="17.78" y="21.59" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B1_P93" x="17.78" y="24.13" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B1_P94" x="17.78" y="26.67" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="GND" x="17.78" y="29.21" visible="pin" length="middle" direction="pwr" swaplevel="1" rot="R180"/>
+<pin name="3.3V" x="17.78" y="31.75" visible="pin" length="middle" direction="pwr" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B0_P116" x="17.78" y="-1.27" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B0_P124" x="17.78" y="-3.81" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B0_P123" x="17.78" y="-6.35" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B0_P127" x="17.78" y="-8.89" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B0_P126" x="17.78" y="-11.43" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B0_P133" x="17.78" y="-13.97" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B0_P132" x="17.78" y="-16.51" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B0_P138" x="17.78" y="-19.05" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B0_P137" x="17.78" y="-21.59" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B0_P140" x="17.78" y="-24.13" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B0_P141" x="17.78" y="-26.67" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B0_P142" x="17.78" y="-29.21" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B0_P143" x="17.78" y="-31.75" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<wire x1="-7.62" y1="34.29" x2="12.7" y2="34.29" width="0.254" layer="94"/>
+<wire x1="12.7" y1="34.29" x2="12.7" y2="-34.29" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-34.29" x2="-7.62" y2="-34.29" width="0.254" layer="94"/>
+<text x="-8.89" y="-11.43" size="1.27" layer="94" font="vector" rot="R90">FPGA Modul XC6SLX9, SV2</text>
+</symbol>
+<symbol name="XC6SLX9_S3">
+<pin name="FPGA_B3_P24" x="20.32" y="-6.35" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B3_P22" x="20.32" y="-3.81" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B3_P23" x="20.32" y="-1.27" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B3_P16" x="20.32" y="1.27" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B3_P17" x="20.32" y="3.81" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B3_P11" x="20.32" y="6.35" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B3_P12" x="20.32" y="8.89" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B3_P8" x="20.32" y="11.43" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B3_P10" x="20.32" y="13.97" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B3_P7" x="20.32" y="16.51" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B3_P9" x="20.32" y="19.05" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B3_P5" x="20.32" y="21.59" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B3_P6" x="20.32" y="24.13" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B3_P26" x="20.32" y="-8.89" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B3_P27" x="20.32" y="-11.43" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B3_P30" x="20.32" y="-13.97" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B3_P29" x="20.32" y="-16.51" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B3_P33" x="20.32" y="-19.05" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B3_P32" x="20.32" y="-21.59" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B3_P34" x="20.32" y="-24.13" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<wire x1="-5.08" y1="26.67" x2="15.24" y2="26.67" width="0.254" layer="94"/>
+<wire x1="15.24" y1="26.67" x2="15.24" y2="-26.67" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-26.67" x2="-5.08" y2="-26.67" width="0.254" layer="94"/>
+<text x="-5.08" y="-12.7" size="1.27" layer="94" font="vector" rot="R90">FPGA Modul XC6SLX9, SV3</text>
+</symbol>
+<symbol name="JTAG">
+<pin name="TCK" x="10.16" y="1.27" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="GND" x="10.16" y="3.81" visible="pin" length="middle" direction="pwr" swaplevel="1" rot="R180"/>
+<pin name="2.5V" x="10.16" y="6.35" visible="pin" length="middle" direction="sup" swaplevel="1" rot="R180"/>
+<pin name="TDO" x="10.16" y="-1.27" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="TDI" x="10.16" y="-3.81" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="TMS" x="10.16" y="-6.35" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<wire x1="-2.54" y1="8.89" x2="5.08" y2="8.89" width="0.254" layer="94"/>
+<wire x1="5.08" y1="8.89" x2="5.08" y2="-8.89" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-8.89" x2="-2.54" y2="-8.89" width="0.254" layer="94"/>
+<text x="-1.27" y="10.16" size="1.27" layer="94" font="vector">JTAG</text>
+</symbol>
+<symbol name="NC">
+<pin name="NC" x="7.62" y="0" length="middle" direction="nc" swaplevel="1" rot="R180"/>
+</symbol>
+<symbol name="IO_MODUL">
+<pin name="RX_CLK" x="10.16" y="0" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="RX_D_ACK" x="10.16" y="2.54" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="RX_D_VD" x="10.16" y="5.08" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="RX_D7" x="10.16" y="7.62" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="RX_D6" x="10.16" y="10.16" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="RX_D5" x="10.16" y="12.7" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="RX_D4" x="10.16" y="15.24" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="RX_D3" x="10.16" y="17.78" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="RX_D2" x="10.16" y="20.32" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="RX_D1" x="10.16" y="22.86" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="TX_D0" x="10.16" y="-5.08" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="TX_D1" x="10.16" y="-7.62" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="TX_D2" x="10.16" y="-10.16" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="TX_D3" x="10.16" y="-12.7" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="TX_D4" x="10.16" y="-15.24" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="TX_D5" x="10.16" y="-17.78" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="TX_D6" x="10.16" y="-20.32" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="TX_D7" x="10.16" y="-22.86" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="TX_D_VD" x="10.16" y="-25.4" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="TX_D_ACK" x="10.16" y="-27.94" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="RX_D0" x="10.16" y="25.4" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="3.3V@S1_1" x="10.16" y="33.02" visible="pin" length="middle" direction="pwr" swaplevel="1" rot="R180"/>
+<pin name="GND" x="10.16" y="-33.02" visible="pin" length="middle" direction="pwr" swaplevel="1" rot="R180"/>
+<pin name="3.3V@S2_2" x="10.16" y="30.48" visible="pin" length="middle" direction="pwr" swaplevel="1" rot="R180"/>
+<wire x1="-10.16" y1="35.56" x2="5.08" y2="35.56" width="0.254" layer="94"/>
+<wire x1="5.08" y1="35.56" x2="5.08" y2="-35.56" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-35.56" x2="-10.16" y2="-35.56" width="0.254" layer="94"/>
+<text x="-10.16" y="-10.16" size="1.27" layer="94" font="vector" rot="R90">BitRecords IO Modul</text>
+</symbol>
+<symbol name="XC6SLX25_S1">
+<pin name="FPGA_B1_M21" x="10.16" y="1.27" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B1_L22" x="10.16" y="3.81" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B1_L20" x="10.16" y="6.35" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B1_K22" x="10.16" y="8.89" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B1_K21" x="10.16" y="11.43" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B1_J22" x="10.16" y="13.97" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B1_K19" x="10.16" y="16.51" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B1_K20" x="10.16" y="19.05" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B1_J20" x="10.16" y="21.59" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B1_F22" x="10.16" y="24.13" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B1_F21" x="10.16" y="26.67" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B1_E22" x="10.16" y="29.21" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B1_E20" x="10.16" y="31.75" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B1_C22" x="10.16" y="34.29" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B1_C20" x="10.16" y="36.83" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="VCC_BANK1" x="10.16" y="39.37" visible="pin" length="middle" direction="pwr" swaplevel="1" rot="R180"/>
+<pin name="3.3V" x="10.16" y="41.91" visible="pin" length="middle" direction="pwr" swaplevel="1" rot="R180"/>
+<pin name="GND@2" x="10.16" y="-41.91" visible="pin" length="middle" direction="pwr" swaplevel="1" rot="R180"/>
+<pin name="GND@1" x="10.16" y="-39.37" visible="pin" length="middle" direction="pwr" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B1_W22" x="10.16" y="-36.83" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B1_W20" x="10.16" y="-34.29" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B1_V22" x="10.16" y="-31.75" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B1_V21" x="10.16" y="-29.21" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B1_U22" x="10.16" y="-26.67" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B1_U20" x="10.16" y="-24.13" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B1_T22" x="10.16" y="-21.59" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B1_T21" x="10.16" y="-19.05" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B1_R22" x="10.16" y="-16.51" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B1_R20" x="10.16" y="-13.97" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B1_P22" x="10.16" y="-11.43" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B1_P21" x="10.16" y="-8.89" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B1_N22" x="10.16" y="-6.35" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B1_N20" x="10.16" y="-3.81" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B1_M22" x="10.16" y="-1.27" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<wire x1="-13.97" y1="44.45" x2="5.08" y2="44.45" width="0.254" layer="94"/>
+<wire x1="5.08" y1="44.45" x2="5.08" y2="-44.45" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-44.45" x2="-13.97" y2="-44.45" width="0.254" layer="94"/>
+<text x="-16.51" y="-10.16" size="1.27" layer="94" font="vector" rot="R90">FPGA Modul XC6SLX25, SV1</text>
+</symbol>
+<symbol name="XC6SLX25_S2">
+<pin name="FPGA_B3_N1" x="12.7" y="1.27" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B3_M2" x="12.7" y="3.81" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B3_M1" x="12.7" y="6.35" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B3_L3" x="12.7" y="8.89" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B3_L1" x="12.7" y="11.43" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B3_K2" x="12.7" y="13.97" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B3_K1" x="12.7" y="16.51" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B3_J3" x="12.7" y="19.05" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B3_J1" x="12.7" y="21.59" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B3_H2" x="12.7" y="24.13" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B3_H1" x="12.7" y="26.67" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B3_G3" x="12.7" y="29.21" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B3_G1" x="12.7" y="31.75" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B3_F2" x="12.7" y="34.29" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B3_F1" x="12.7" y="36.83" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="3.3V" x="12.7" y="39.37" visible="pin" length="middle" direction="pwr" swaplevel="1" rot="R180"/>
+<pin name="VCC_BANK3" x="12.7" y="41.91" visible="pin" length="middle" direction="pwr" swaplevel="1" rot="R180"/>
+<pin name="GND@2" x="12.7" y="-41.91" visible="pin" length="middle" direction="pwr" swaplevel="1" rot="R180"/>
+<pin name="GND@1" x="12.7" y="-39.37" visible="pin" length="middle" direction="pwr" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B3_Y2" x="12.7" y="-36.83" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B3_Y1" x="12.7" y="-34.29" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B3_W3" x="12.7" y="-31.75" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B3_W1" x="12.7" y="-29.21" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B3_V2" x="12.7" y="-26.67" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B3_V1" x="12.7" y="-24.13" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B3_U3" x="12.7" y="-21.59" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B3_U1" x="12.7" y="-19.05" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B3_T2" x="12.7" y="-16.51" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B3_T1" x="12.7" y="-13.97" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B3_R3" x="12.7" y="-11.43" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B3_R1" x="12.7" y="-8.89" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B3_P2" x="12.7" y="-6.35" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B3_P1" x="12.7" y="-3.81" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B3_N3" x="12.7" y="-1.27" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<wire x1="-11.43" y1="44.45" x2="7.62" y2="44.45" width="0.254" layer="94"/>
+<wire x1="7.62" y1="44.45" x2="7.62" y2="-44.45" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-44.45" x2="-11.43" y2="-44.45" width="0.254" layer="94"/>
+<text x="-13.97" y="-10.16" size="1.27" layer="94" font="vector" rot="R90">FPGA Modul XC6SLX25, SV2</text>
+</symbol>
+<symbol name="XC6SLX25_S3">
+<pin name="FPGA_B2_AB16" x="13.97" y="-16.51" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B2_AA14" x="13.97" y="-13.97" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B2_AB14" x="13.97" y="-11.43" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B2_AA12" x="13.97" y="-8.89" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B2_AB12" x="13.97" y="-6.35" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B2_Y11" x="13.97" y="-3.81" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B2_AB11" x="13.97" y="-1.27" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B2_AA10" x="13.97" y="1.27" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B2_AB10" x="13.97" y="3.81" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B2_AA8" x="13.97" y="6.35" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B2_AB8" x="13.97" y="8.89" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B2_AA6" x="13.97" y="11.43" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B2_AB6" x="13.97" y="13.97" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B2_AA4" x="13.97" y="16.51" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B2_AB4" x="13.97" y="19.05" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="3.3V" x="13.97" y="21.59" visible="pin" length="middle" direction="pwr" swaplevel="1" rot="R180"/>
+<pin name="VCC_BANK2" x="13.97" y="24.13" visible="pin" length="middle" direction="pwr" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B2_AA18" x="13.97" y="-24.13" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B2_AB18" x="13.97" y="-21.59" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<pin name="FPGA_B2_AA16" x="13.97" y="-19.05" visible="pin" length="middle" swaplevel="1" rot="R180"/>
+<wire x1="-10.16" y1="26.67" x2="8.89" y2="26.67" width="0.254" layer="94"/>
+<wire x1="8.89" y1="26.67" x2="8.89" y2="-26.67" width="0.254" layer="94"/>
+<wire x1="8.89" y1="-26.67" x2="-10.16" y2="-26.67" width="0.254" layer="94"/>
+<text x="-12.7" y="-13.97" size="1.27" layer="94" font="vector" rot="R90">FPGA Modul XC6SLX25, SV3</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="POWER_MODUL" prefix="MODUL">
+<description>Footprint für das BitRecords Power Modul</description>
+<gates>
+<gate name="G$1" symbol="POWER" x="5.08" y="5.08" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="POWER">
+<connects>
+<connect gate="G$1" pin="1.2V@S1_17" pad="S1_17"/>
+<connect gate="G$1" pin="1.2V@S1_18" pad="S1_18"/>
+<connect gate="G$1" pin="1.2V@S2_17" pad="S2_17"/>
+<connect gate="G$1" pin="1.2V@S2_18" pad="S2_18"/>
+<connect gate="G$1" pin="2.5V@S1_13" pad="S1_13"/>
+<connect gate="G$1" pin="2.5V@S1_14" pad="S1_14"/>
+<connect gate="G$1" pin="2.5V@S2_13" pad="S2_13"/>
+<connect gate="G$1" pin="2.5V@S2_14" pad="S2_14"/>
+<connect gate="G$1" pin="3.3V@S1_10" pad="S1_10"/>
+<connect gate="G$1" pin="3.3V@S1__9" pad="S1_9"/>
+<connect gate="G$1" pin="3.3V@S2_10" pad="S2_10"/>
+<connect gate="G$1" pin="3.3V@S2__9" pad="S2_9"/>
+<connect gate="G$1" pin="5.0V@S1_5" pad="S1_5"/>
+<connect gate="G$1" pin="5.0V@S1_6" pad="S1_6"/>
+<connect gate="G$1" pin="5.0V@S2_5" pad="S2_5"/>
+<connect gate="G$1" pin="5.0V@S2_6" pad="S2_6"/>
+<connect gate="G$1" pin="GND" pad="S1_3 S1_4 S1_7 S1_8 S1_11 S1_12 S1_15 S1_16 S1_19 S1_20 S2_3 S2_4 S2_7 S2_8 S2_11 S2_12 S2_15 S2_16 S2_19 S2_20"/>
+<connect gate="G$1" pin="VIN@S1_1" pad="S1_1"/>
+<connect gate="G$1" pin="VIN@S1_2" pad="S1_2"/>
+<connect gate="G$1" pin="VIN@S2_1" pad="S2_1"/>
+<connect gate="G$1" pin="VIN@S2_2" pad="S2_2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FPGA_MODUL_XC6SLX9" prefix="MODUL">
+<description>Footprint für das BitRecords FPGA Modul XC6SLX9</description>
+<gates>
+<gate name="G$1" symbol="XC6SLX9_S1" x="-35.56" y="0" swaplevel="1"/>
+<gate name="G$2" symbol="XC6SLX9_S2" x="0" y="0" swaplevel="1"/>
+<gate name="G$3" symbol="XC6SLX9_S3" x="40.64" y="7.62" swaplevel="1"/>
+<gate name="G$4" symbol="JTAG" x="50.8" y="-35.56" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="XC6SLX9">
+<connects>
+<connect gate="G$1" pin="3.3V" pad="S1_2"/>
+<connect gate="G$1" pin="FPGA_B1_P74" pad="S1_7"/>
+<connect gate="G$1" pin="FPGA_B1_P75" pad="S1_8"/>
+<connect gate="G$1" pin="FPGA_B1_P78" pad="S1_6"/>
+<connect gate="G$1" pin="FPGA_B1_P79" pad="S1_5"/>
+<connect gate="G$1" pin="FPGA_B1_P80" pad="S1_4"/>
+<connect gate="G$1" pin="FPGA_B1_P81" pad="S1_3"/>
+<connect gate="G$1" pin="FPGA_B2_P40" pad="S1_25"/>
+<connect gate="G$1" pin="FPGA_B2_P41" pad="S1_26"/>
+<connect gate="G$1" pin="FPGA_B2_P43" pad="S1_23"/>
+<connect gate="G$1" pin="FPGA_B2_P44" pad="S1_24"/>
+<connect gate="G$1" pin="FPGA_B2_P45" pad="S1_21"/>
+<connect gate="G$1" pin="FPGA_B2_P46" pad="S1_22"/>
+<connect gate="G$1" pin="FPGA_B2_P47" pad="S1_20"/>
+<connect gate="G$1" pin="FPGA_B2_P50" pad="S1_19"/>
+<connect gate="G$1" pin="FPGA_B2_P51" pad="S1_18"/>
+<connect gate="G$1" pin="FPGA_B2_P55" pad="S1_17"/>
+<connect gate="G$1" pin="FPGA_B2_P56" pad="S1_16"/>
+<connect gate="G$1" pin="FPGA_B2_P57" pad="S1_15"/>
+<connect gate="G$1" pin="FPGA_B2_P58" pad="S1_14"/>
+<connect gate="G$1" pin="FPGA_B2_P59" pad="S1_13"/>
+<connect gate="G$1" pin="FPGA_B2_P61" pad="S1_12"/>
+<connect gate="G$1" pin="FPGA_B2_P62" pad="S1_11"/>
+<connect gate="G$1" pin="FPGA_B2_P66" pad="S1_10"/>
+<connect gate="G$1" pin="FPGA_B2_P67" pad="S1_9"/>
+<connect gate="G$1" pin="GND" pad="S1_1"/>
+<connect gate="G$2" pin="3.3V" pad="S2_1"/>
+<connect gate="G$2" pin="FPGA_B0_P111" pad="S2_10"/>
+<connect gate="G$2" pin="FPGA_B0_P112" pad="S2_9"/>
+<connect gate="G$2" pin="FPGA_B0_P114" pad="S2_12"/>
+<connect gate="G$2" pin="FPGA_B0_P115" pad="S2_11"/>
+<connect gate="G$2" pin="FPGA_B0_P116" pad="S2_14"/>
+<connect gate="G$2" pin="FPGA_B0_P117" pad="S2_13"/>
+<connect gate="G$2" pin="FPGA_B0_P123" pad="S2_16"/>
+<connect gate="G$2" pin="FPGA_B0_P124" pad="S2_15"/>
+<connect gate="G$2" pin="FPGA_B0_P126" pad="S2_18"/>
+<connect gate="G$2" pin="FPGA_B0_P127" pad="S2_17"/>
+<connect gate="G$2" pin="FPGA_B0_P132" pad="S2_20"/>
+<connect gate="G$2" pin="FPGA_B0_P133" pad="S2_19"/>
+<connect gate="G$2" pin="FPGA_B0_P137" pad="S2_22"/>
+<connect gate="G$2" pin="FPGA_B0_P138" pad="S2_21"/>
+<connect gate="G$2" pin="FPGA_B0_P140" pad="S2_23"/>
+<connect gate="G$2" pin="FPGA_B0_P141" pad="S2_24"/>
+<connect gate="G$2" pin="FPGA_B0_P142" pad="S2_25"/>
+<connect gate="G$2" pin="FPGA_B0_P143" pad="S2_26"/>
+<connect gate="G$2" pin="FPGA_B1_P100" pad="S2_7"/>
+<connect gate="G$2" pin="FPGA_B1_P101" pad="S2_8"/>
+<connect gate="G$2" pin="FPGA_B1_P93" pad="S2_4"/>
+<connect gate="G$2" pin="FPGA_B1_P94" pad="S2_3"/>
+<connect gate="G$2" pin="FPGA_B1_P97" pad="S2_6"/>
+<connect gate="G$2" pin="FPGA_B1_P98" pad="S2_5"/>
+<connect gate="G$2" pin="GND" pad="S2_2"/>
+<connect gate="G$3" pin="FPGA_B3_P10" pad="S3_5"/>
+<connect gate="G$3" pin="FPGA_B3_P11" pad="S3_8"/>
+<connect gate="G$3" pin="FPGA_B3_P12" pad="S3_7"/>
+<connect gate="G$3" pin="FPGA_B3_P16" pad="S3_10"/>
+<connect gate="G$3" pin="FPGA_B3_P17" pad="S3_9"/>
+<connect gate="G$3" pin="FPGA_B3_P22" pad="S3_12"/>
+<connect gate="G$3" pin="FPGA_B3_P23" pad="S3_11"/>
+<connect gate="G$3" pin="FPGA_B3_P24" pad="S3_13"/>
+<connect gate="G$3" pin="FPGA_B3_P26" pad="S3_14"/>
+<connect gate="G$3" pin="FPGA_B3_P27" pad="S3_15"/>
+<connect gate="G$3" pin="FPGA_B3_P29" pad="S3_17"/>
+<connect gate="G$3" pin="FPGA_B3_P30" pad="S3_16"/>
+<connect gate="G$3" pin="FPGA_B3_P32" pad="S3_19"/>
+<connect gate="G$3" pin="FPGA_B3_P33" pad="S3_18"/>
+<connect gate="G$3" pin="FPGA_B3_P34" pad="S3_20"/>
+<connect gate="G$3" pin="FPGA_B3_P5" pad="S3_2"/>
+<connect gate="G$3" pin="FPGA_B3_P6" pad="S3_1"/>
+<connect gate="G$3" pin="FPGA_B3_P7" pad="S3_4"/>
+<connect gate="G$3" pin="FPGA_B3_P8" pad="S3_6"/>
+<connect gate="G$3" pin="FPGA_B3_P9" pad="S3_3"/>
+<connect gate="G$4" pin="2.5V" pad="JTAG_2.5V"/>
+<connect gate="G$4" pin="GND" pad="GND"/>
+<connect gate="G$4" pin="TCK" pad="JTAG_TCK"/>
+<connect gate="G$4" pin="TDI" pad="JTAG_TDI"/>
+<connect gate="G$4" pin="TDO" pad="JTAG_TDO"/>
+<connect gate="G$4" pin="TMS" pad="JTAG_TMS"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="IO_MODUL" prefix="MODUL">
+<description>Footprint für die BitRecords IO Module (USB2.0, Ethernet, WLAN, ...)</description>
+<gates>
+<gate name="G$1" symbol="IO_MODUL" x="5.08" y="0" swaplevel="1"/>
+<gate name="G$2" symbol="NC" x="-25.4" y="-2.54" addlevel="request" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="IO_MODUL">
+<connects>
+<connect gate="G$1" pin="3.3V@S1_1" pad="S1_1"/>
+<connect gate="G$1" pin="3.3V@S2_2" pad="S2_2"/>
+<connect gate="G$1" pin="GND" pad="S1_3 S1_7 S1_13 S2_4 S2_8 S2_14"/>
+<connect gate="G$1" pin="RX_CLK" pad="S1_5"/>
+<connect gate="G$1" pin="RX_D0" pad="S1_6"/>
+<connect gate="G$1" pin="RX_D1" pad="S1_8"/>
+<connect gate="G$1" pin="RX_D2" pad="S1_10"/>
+<connect gate="G$1" pin="RX_D3" pad="S1_12"/>
+<connect gate="G$1" pin="RX_D4" pad="S1_14"/>
+<connect gate="G$1" pin="RX_D5" pad="S1_16"/>
+<connect gate="G$1" pin="RX_D6" pad="S1_18"/>
+<connect gate="G$1" pin="RX_D7" pad="S1_20"/>
+<connect gate="G$1" pin="RX_D_ACK" pad="S1_2"/>
+<connect gate="G$1" pin="RX_D_VD" pad="S1_4"/>
+<connect gate="G$1" pin="TX_D0" pad="S2_5"/>
+<connect gate="G$1" pin="TX_D1" pad="S2_7"/>
+<connect gate="G$1" pin="TX_D2" pad="S2_9"/>
+<connect gate="G$1" pin="TX_D3" pad="S2_11"/>
+<connect gate="G$1" pin="TX_D4" pad="S2_13"/>
+<connect gate="G$1" pin="TX_D5" pad="S2_15"/>
+<connect gate="G$1" pin="TX_D6" pad="S2_17"/>
+<connect gate="G$1" pin="TX_D7" pad="S2_19"/>
+<connect gate="G$1" pin="TX_D_ACK" pad="S2_1"/>
+<connect gate="G$1" pin="TX_D_VD" pad="S2_3"/>
+<connect gate="G$2" pin="NC" pad="S1_9 S1_11 S1_15 S1_17 S1_19 S2_6 S2_10 S2_12 S2_16 S2_18 S2_20"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FPGA_MODUL_XC6SLX25">
+<description>Footprint für das BitRecords FPGA Modul XC6SLX25</description>
+<gates>
+<gate name="G$1" symbol="XC6SLX25_S1" x="-48.26" y="0" swaplevel="1"/>
+<gate name="G$2" symbol="XC6SLX25_S2" x="-5.08" y="0" swaplevel="1"/>
+<gate name="G$3" symbol="XC6SLX25_S3" x="40.64" y="17.78" swaplevel="1"/>
+<gate name="G$4" symbol="JTAG" x="43.18" y="-30.48" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="XC6SLX25">
+<connects>
+<connect gate="G$1" pin="3.3V" pad="S1_1"/>
+<connect gate="G$1" pin="FPGA_B1_C20" pad="S1_3"/>
+<connect gate="G$1" pin="FPGA_B1_C22" pad="S1_4"/>
+<connect gate="G$1" pin="FPGA_B1_E20" pad="S1_5"/>
+<connect gate="G$1" pin="FPGA_B1_E22" pad="S1_6"/>
+<connect gate="G$1" pin="FPGA_B1_F21" pad="S1_7"/>
+<connect gate="G$1" pin="FPGA_B1_F22" pad="S1_8"/>
+<connect gate="G$1" pin="FPGA_B1_J20" pad="S1_9"/>
+<connect gate="G$1" pin="FPGA_B1_J22" pad="S1_12"/>
+<connect gate="G$1" pin="FPGA_B1_K19" pad="S1_11"/>
+<connect gate="G$1" pin="FPGA_B1_K20" pad="S1_10"/>
+<connect gate="G$1" pin="FPGA_B1_K21" pad="S1_13"/>
+<connect gate="G$1" pin="FPGA_B1_K22" pad="S1_14"/>
+<connect gate="G$1" pin="FPGA_B1_L20" pad="S1_15"/>
+<connect gate="G$1" pin="FPGA_B1_L22" pad="S1_16"/>
+<connect gate="G$1" pin="FPGA_B1_M21" pad="S1_17"/>
+<connect gate="G$1" pin="FPGA_B1_M22" pad="S1_18"/>
+<connect gate="G$1" pin="FPGA_B1_N20" pad="S1_19"/>
+<connect gate="G$1" pin="FPGA_B1_N22" pad="S1_20"/>
+<connect gate="G$1" pin="FPGA_B1_P21" pad="S1_21"/>
+<connect gate="G$1" pin="FPGA_B1_P22" pad="S1_22"/>
+<connect gate="G$1" pin="FPGA_B1_R20" pad="S1_23"/>
+<connect gate="G$1" pin="FPGA_B1_R22" pad="S1_24"/>
+<connect gate="G$1" pin="FPGA_B1_T21" pad="S1_25"/>
+<connect gate="G$1" pin="FPGA_B1_T22" pad="S1_26"/>
+<connect gate="G$1" pin="FPGA_B1_U20" pad="S1_27"/>
+<connect gate="G$1" pin="FPGA_B1_U22" pad="S1_28"/>
+<connect gate="G$1" pin="FPGA_B1_V21" pad="S1_29"/>
+<connect gate="G$1" pin="FPGA_B1_V22" pad="S1_30"/>
+<connect gate="G$1" pin="FPGA_B1_W20" pad="S1_31"/>
+<connect gate="G$1" pin="FPGA_B1_W22" pad="S1_32"/>
+<connect gate="G$1" pin="GND@1" pad="S1_33"/>
+<connect gate="G$1" pin="GND@2" pad="S1_34"/>
+<connect gate="G$1" pin="VCC_BANK1" pad="S1_2"/>
+<connect gate="G$2" pin="3.3V" pad="S2_2"/>
+<connect gate="G$2" pin="FPGA_B3_F1" pad="S2_3"/>
+<connect gate="G$2" pin="FPGA_B3_F2" pad="S2_4"/>
+<connect gate="G$2" pin="FPGA_B3_G1" pad="S2_5"/>
+<connect gate="G$2" pin="FPGA_B3_G3" pad="S2_6"/>
+<connect gate="G$2" pin="FPGA_B3_H1" pad="S2_7"/>
+<connect gate="G$2" pin="FPGA_B3_H2" pad="S2_8"/>
+<connect gate="G$2" pin="FPGA_B3_J1" pad="S2_9"/>
+<connect gate="G$2" pin="FPGA_B3_J3" pad="S2_10"/>
+<connect gate="G$2" pin="FPGA_B3_K1" pad="S2_11"/>
+<connect gate="G$2" pin="FPGA_B3_K2" pad="S2_12"/>
+<connect gate="G$2" pin="FPGA_B3_L1" pad="S2_13"/>
+<connect gate="G$2" pin="FPGA_B3_L3" pad="S2_14"/>
+<connect gate="G$2" pin="FPGA_B3_M1" pad="S2_15"/>
+<connect gate="G$2" pin="FPGA_B3_M2" pad="S2_16"/>
+<connect gate="G$2" pin="FPGA_B3_N1" pad="S2_17"/>
+<connect gate="G$2" pin="FPGA_B3_N3" pad="S2_18"/>
+<connect gate="G$2" pin="FPGA_B3_P1" pad="S2_19"/>
+<connect gate="G$2" pin="FPGA_B3_P2" pad="S2_20"/>
+<connect gate="G$2" pin="FPGA_B3_R1" pad="S2_21"/>
+<connect gate="G$2" pin="FPGA_B3_R3" pad="S2_22"/>
+<connect gate="G$2" pin="FPGA_B3_T1" pad="S2_23"/>
+<connect gate="G$2" pin="FPGA_B3_T2" pad="S2_24"/>
+<connect gate="G$2" pin="FPGA_B3_U1" pad="S2_25"/>
+<connect gate="G$2" pin="FPGA_B3_U3" pad="S2_26"/>
+<connect gate="G$2" pin="FPGA_B3_V1" pad="S2_27"/>
+<connect gate="G$2" pin="FPGA_B3_V2" pad="S2_28"/>
+<connect gate="G$2" pin="FPGA_B3_W1" pad="S2_29"/>
+<connect gate="G$2" pin="FPGA_B3_W3" pad="S2_30"/>
+<connect gate="G$2" pin="FPGA_B3_Y1" pad="S2_31"/>
+<connect gate="G$2" pin="FPGA_B3_Y2" pad="S2_32"/>
+<connect gate="G$2" pin="GND@1" pad="S2_33"/>
+<connect gate="G$2" pin="GND@2" pad="S2_34"/>
+<connect gate="G$2" pin="VCC_BANK3" pad="S2_1"/>
+<connect gate="G$3" pin="3.3V" pad="S3_2"/>
+<connect gate="G$3" pin="FPGA_B2_AA10" pad="S3_10"/>
+<connect gate="G$3" pin="FPGA_B2_AA12" pad="S3_14"/>
+<connect gate="G$3" pin="FPGA_B2_AA14" pad="S3_16"/>
+<connect gate="G$3" pin="FPGA_B2_AA16" pad="S3_18"/>
+<connect gate="G$3" pin="FPGA_B2_AA18" pad="S3_20"/>
+<connect gate="G$3" pin="FPGA_B2_AA4" pad="S3_4"/>
+<connect gate="G$3" pin="FPGA_B2_AA6" pad="S3_6"/>
+<connect gate="G$3" pin="FPGA_B2_AA8" pad="S3_8"/>
+<connect gate="G$3" pin="FPGA_B2_AB10" pad="S3_9"/>
+<connect gate="G$3" pin="FPGA_B2_AB11" pad="S3_11"/>
+<connect gate="G$3" pin="FPGA_B2_AB12" pad="S3_13"/>
+<connect gate="G$3" pin="FPGA_B2_AB14" pad="S3_15"/>
+<connect gate="G$3" pin="FPGA_B2_AB16" pad="S3_17"/>
+<connect gate="G$3" pin="FPGA_B2_AB18" pad="S3_19"/>
+<connect gate="G$3" pin="FPGA_B2_AB4" pad="S3_3"/>
+<connect gate="G$3" pin="FPGA_B2_AB6" pad="S3_5"/>
+<connect gate="G$3" pin="FPGA_B2_AB8" pad="S3_7"/>
+<connect gate="G$3" pin="FPGA_B2_Y11" pad="S3_12"/>
+<connect gate="G$3" pin="VCC_BANK2" pad="S3_1"/>
+<connect gate="G$4" pin="2.5V" pad="JTAG_2.5V"/>
+<connect gate="G$4" pin="GND" pad="GND"/>
+<connect gate="G$4" pin="TCK" pad="JTAG_TCK"/>
+<connect gate="G$4" pin="TDI" pad="JTAG_TDI"/>
+<connect gate="G$4" pin="TDO" pad="JTAG_TDO"/>
+<connect gate="G$4" pin="TMS" pad="JTAG_TMS"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
