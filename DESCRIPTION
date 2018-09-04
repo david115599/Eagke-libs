@@ -1,3 +1,12 @@
-<b>User Libraries</b>
+<language en>
+<b>Libraries</b>
 <p>
-This folder contains user Libraries files.
+Note: the libraries supplied with EAGLE can now be found in the
+"Managed Libraries" section of the Control Panel.
+</language>
+<language de>
+<b>Bibliotheken</b>
+<p>
+Hinweis: Bibliotheken, die bereits mit EAGLE geliefert werden, finden Sie jetzt im Bereich
+"Verwaltete Bibliotheken" im Control Panel.
+</language>
